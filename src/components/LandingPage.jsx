@@ -6,7 +6,7 @@ const LandingPage = () => {
       {/* Header */}
       <header>
         <div className="logo">
-          <img src="../../public/logo.png" alt="" width={90} height={30} />
+          <img src="/logo.png" alt="" width={100} height={40} />
         </div>
         <nav>
           <ul>
@@ -74,14 +74,12 @@ const LandingPage = () => {
             convert your audience.
           </li>
           <li>
-           Module 5: Content Marketing:
-            Discover how to create and distribute valuable content that attracts
-            and retains customers. 
+            Module 5: Content Marketing: Discover how to create and distribute
+            valuable content that attracts and retains customers.
           </li>
           <li>
-            Module 6: Analytics and Data
-            Learn how to measure the success of your digital marketing efforts
-            through data analysis. 
+            Module 6: Analytics and Data Learn how to measure the success of
+            your digital marketing efforts through data analysis.
           </li>
         </ul>
       </section>
@@ -178,23 +176,20 @@ const LandingPage = () => {
       <footer>
         <div className="footer-container">
           <div className="logo">
-            <img
-              src="../../public/logo.png"
-              alt="Logo"
-              width="90"
-              height="30"
-            />
+            <img src="/logo.png" alt="Logo" width={100} height={40} />
           </div>
           <div className="social-media">
-            <a href="#" aria-label="Facebook">
-              <i className="fab fa-facebook-f"></i>
-            </a>
-            <a href="#" aria-label="Twitter">
-              <i className="fab fa-twitter"></i>
-            </a>
-            <a href="#" aria-label="Instagram">
-              <i className="fab fa-instagram"></i>
-            </a>
+            <div className="social-media">
+              <a href="#" aria-label="Facebook">
+                <i className="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" aria-label="Twitter">
+                <i className="fab fa-twitter"></i>
+              </a>
+              <a href="#" aria-label="LinkedIn">
+                <i className="fab fa-linkedin-in"></i>
+              </a>
+            </div>
           </div>
         </div>
         <p>© 2024 Finishing School. All rights reserved.</p>

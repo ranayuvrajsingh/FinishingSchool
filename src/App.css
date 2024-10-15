@@ -294,8 +294,8 @@ footer p {
 .social-media a {
   margin-left: 15px;
   color: #333; /* Set default icon color */
-  font-size: 24px;
-  text-decoration: none;
+  font-size: 18px;
+    text-decoration: none;
 }
 
 .social-media a:hover {
