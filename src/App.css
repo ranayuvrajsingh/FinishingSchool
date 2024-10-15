@@ -209,9 +209,9 @@ header .cta-btn:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #1e1d1de1;
+  /* background-color: #1e1d1de1; */
   border-radius:20px;
-  color: whitesmoke;
+  /* color: whitesmoke; */
   margin-bottom: 30px;
 }
 
